@@ -202,6 +202,22 @@ text-align: center;
   color: #6c1fea;
   font-weight: bolder;
   font-size: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1000;
+  bottom: 2rem;
+  right:3rem;
+}
+
+.fa-arrow-circle-up{
+  text-shadow: 2px 2px 2px rgba(126, 123, 123, 0.774);
+}
+
+@media screen and (max-width:1080px){
+  .fa-arrow-circle-up{
+  right:0.1rem;
+}
 }
 
 
