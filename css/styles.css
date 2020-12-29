@@ -222,12 +222,15 @@ text-align: center;
 
 .card-img-top{
   width:100%;
+  height: 15vw;
+  object-fit: cover;
  }
 
  @media screen and (max-width:740px){
   .card-img-top{
     width:100%;
-    height:auto!important;
+    height: 25vw;
+    object-fit: cover;
    }
 
    .subtitle {
@@ -237,6 +240,20 @@ text-align: center;
   }
  }
 
+
+ @media screen and (max-width:575px){
+  .card-img-top{
+    width:100%;
+    height: auto!important;
+    object-fit: cover;
+   }
+
+   .subtitle {
+    font-weight: 700;
+    font-size: medium;
+    color: #585757;
+  }
+ }
 
 
 
