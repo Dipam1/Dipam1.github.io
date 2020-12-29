@@ -23,15 +23,15 @@
 
 .portfolio-paragraph > ul{
   list-style: none; /* Remove default bullets */
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
   text-align: center;
 }
 
 @media screen and (max-width:1080px){
   .portfolio-paragraph > ul{
-  columns: 1;
+  columns: 2;
   /* -webkit-columns: 2;
   -moz-columns: 2; */
   }
@@ -50,10 +50,3 @@
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
-
-
-#list-of-movies{
-  text-align: center;
-  justify-content: left;
-}
-
