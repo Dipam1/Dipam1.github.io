@@ -222,9 +222,20 @@ text-align: center;
 
 .card-img-top{
   width:100%;
-  height:auto!important;
-}
+ }
 
+ @media screen and (max-width:740px){
+  .card-img-top{
+    width:100%;
+    height:auto!important;
+   }
+
+   .subtitle {
+    font-weight: 700;
+    font-size: small;
+    color: #585757;
+  }
+ }
 
 
 
