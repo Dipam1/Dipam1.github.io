@@ -26,6 +26,7 @@
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  text-align: center;
 }
 
 @media screen and (max-width:1080px){
