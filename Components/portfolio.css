@@ -1,0 +1,54 @@
+.portfolio-header {
+    text-align: center;
+    color: rgb(40, 14, 66);
+}
+
+.portfolio-paragraph {
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.p-card{
+  width:100%;
+  height:25vw;
+  object-fit: cover;
+}
+
+.v-card{
+  width:100%;
+  height:20vw;
+  object-fit: cover;
+}
+
+.portfolio-paragraph > ul{
+  list-style: none; /* Remove default bullets */
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+@media screen and (max-width:1080px){
+  .portfolio-paragraph > ul{
+  columns: 1;
+  /* -webkit-columns: 2;
+  -moz-columns: 2; */
+  }
+}
+
+.portfolio-h5{
+  color: #6c63ff;
+  font-weight: bolder;
+}
+
+.portfolio-paragraph > ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #6c63ff; /* Change the color */
+  font-weight: bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+
